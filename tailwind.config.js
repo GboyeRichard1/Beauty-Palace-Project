@@ -2,8 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'spa': "url ('images/spa.png')",
+      }
+    },
   },
-  plugins: [],
+  plugins: []
 }
-
